@@ -1,4 +1,5 @@
 language: objective-c
+osx_image: mavericks
 
 rvm:
   - "system; export CEDAR_SDK_VERSION=5.0 #"

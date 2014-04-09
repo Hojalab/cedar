@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   # Versions of this pod >= 0.9.0 require C++11.
   #   https://github.com/pivotal/cedar/issues/47
   s.xcconfig = {
-    'CLANG_CXX_LANGUAGE_STANDARD' => 'c++0x',
+    'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
     'CLANG_CXX_LIBRARY' => 'libc++'
   }
 
